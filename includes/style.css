@@ -1,0 +1,105 @@
+#slidesHome  {
+    background: url("images/golden-gate-bridge-in-san-francisco-california-4121708.jpg") ;
+    transition: background 3s;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#slidesHome:before {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    /*background-color:violet;*/
+    opacity:0.3
+}
+
+.mainDiv{
+    padding-bottom: 5.7rem!important;
+}
+
+a{
+    font-size: 14px;
+}
+.nav-link {
+    color: #fff;
+}
+
+.white-line{
+    border-bottom: 1px solid white;
+}
+
+.border-right {
+    border-right: 1px solid white!important;
+}
+
+.upperCase{
+    font-variant: small-caps;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.bg-image .nav-link{
+    background-color: #5b5b5b;
+}
+
+.bg-image .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.bg-image .badge{
+    background-color: #cc3700 !important;
+}
+.bg-image .nav-tabs .nav-item.show .nav-link, .bg-image .nav-tabs .nav-link.active{
+    color: #fff;;
+    background-color: #b23000;
+}
+
+.bg-image .nav-item .nav-link:hover{
+    color: #fff;;
+    background-color: #b23000;
+}
+.tabBackground {
+    background-color: #fff;
+    opacity: 0.9;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+#flight .btn-link {
+    font-style: italic;
+    color: #b23000;
+    text-decoration: underline;
+}
+
+#flight .btn-primary {
+    color: #fff;
+    background-color: #b23000;
+    border-color: #b23000;
+}
+
+.tab-content{
+    border-top: 4px solid #b23000;
+}
+
+#flight .btn-light:not(:disabled):not(.disabled).active, #flight .btn-light:not(:disabled):not(.disabled):active, #flight .show>.btn-light.dropdown-toggle {
+    color: #fff;
+    background-color: #b23000;
+    border-color: #d3d9df;
+}
+
+.btn-light {
+    border-color: #212529;
+}
